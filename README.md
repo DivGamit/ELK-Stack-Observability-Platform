@@ -1,7 +1,5 @@
 # ELK-Stack-Observability-Platform
 
-# ELK Stack Centralized Logging & Observability Demo
-
 A complete, production-like centralized logging system built with the ELK Stack (Elasticsearch + Kibana) and a custom Python ingester.
 
 ![Dashboard Preview](screenshots/dashboard.png)
