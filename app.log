@@ -1,0 +1,20 @@
+2025-01-01 08:10:21 INFO  AuthService  User login successful: user_id=453
+2025-01-01 08:12:54 WARN  PaymentService  Payment latency high for order_id=987
+2025-01-01 08:13:11 ERROR PaymentService  Payment failed for order_id=987, cause=Insufficient balance
+2025-01-01 08:14:45 INFO  FileService  File uploaded: file=report_2025.pdf
+2025-01-01 08:17:33 ERROR DBService  Unable to connect to database: retry=1
+2025-01-01 08:17:36 ERROR DBService  Unable to connect to database: retry=2
+2025-01-01 08:18:01 INFO  DBService  Database connection restored
+2025-01-01 08:20:45 INFO  UserService  User updated profile: user_id=453
+2025-01-01 08:22:10 WARN  CPUService  High CPU usage detected: 87%
+2025-01-01 08:22:52 ERROR CPUService  System overload caused process restart
+2025-01-01 08:25:37 INFO  OrderService  Order placed: order_id=5543, amount=850
+2025-01-01 08:26:10 INFO  NotificationService  Email sent to user_id=453
+2025-01-01 08:27:55 WARN  MemoryService  Memory usage above threshold: 78%
+2025-01-01 08:28:14 ERROR MemoryService  OutOfMemory: service=Billing
+2025-01-01 08:30:42 INFO  AuthService  Token refreshed for user_id=453
+2025-01-01 08:33:18 ERROR APIService  External API timeout: endpoint=/pricing
+2025-01-01 08:34:02 INFO  APIService  API timeout resolved for endpoint=/pricing
+2025-01-01 08:36:55 INFO  CacheService  Cache cleared for region=us-west
+2025-01-01 08:38:10 WARN  NetworkService  Packet loss detected: 32%
+2025-01-01 08:39:33 ERROR NetworkService  Network unavailable, switching to backup route
